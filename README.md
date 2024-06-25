@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>musems | fun places</title>
         <style>
-
                        /* Style the search box */
                        #mySearch {
             width: 100%;
@@ -11,14 +9,12 @@
             padding: 11px;
             border: 1px solid #ddd;
             }
-
             /* Style the navigation menu */
             #myMenu {
             list-style-type: none;
             padding: 0;
             margin: 0;
             }
-
             /* Style the navigation links */
             #myMenu li a {
             padding: 12px;
@@ -26,14 +22,12 @@
             color: black;
             display: block
             }
-
             #myMenu li a:hover {
             background-color: #eee;
             }
-                        * {
+            * {
             box-sizing: border-box;
             }
-
             #myInput {
             background-image: url('/css/searchicon.png');
             background-position: 10px 12px;
@@ -44,14 +38,12 @@
             border: 1px solid #ddd;
             margin-bottom: 12px;
             }
-
             #myUL {
             background-color: rgb(114, 114, 114);
             list-style-type: none;
             padding: 0;
             margin: 0;
             }
-
             #myUL li a {
             border: 1px solid #ddd;
             margin-top: -1px; /* Prevent double borders */
@@ -62,21 +54,17 @@
             color: black;
             display: block
             }
-
             #myUL li a:hover:not(.header) {
                 background-color: rgb(83, 83, 83);
                 color: white;
             }
             body{
                 background-color: rgb(32, 32, 32);
-            }
-            
+            }            
         </style>
     </head>
     <body>
-        <a href="file:///C:/Users/thomc/OneDrive/Documents/homeschool/A.R.C/places.thirft.html"></a>
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-
         <ul id="myUL">
         <li><a href="#">#1:</a></li>
         <li><a href="#">#2:</a></li>
@@ -86,9 +74,7 @@
         <li><a href="#">#6:</a></li>
         <li><a href="#">#7:</a></li>
         </ul>
-                <a style="color: white; font-size: 25px;" href="file:///C:/Users/thomc/OneDrive/Documents/homeschool/A.R.C/places/places.home.html">home</a>
-
-        
+                <a style="color: white; font-size: 25px;" href="https://mcallisterschool.github.io/places/">home</a>        
         <script>
             function myFunction() {
                 var input, filter, ul, li, a, i, txtValue;
@@ -107,6 +93,5 @@
                 }
             }
             </script>
-
     </body>
 </html>
