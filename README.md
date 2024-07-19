@@ -59,7 +59,7 @@
                 color: white;
             }
             body{
-                background-color: rgb(32, 32, 32);
+                background-color: rgb(177,177,177);
             }            
         </style>
     </head>
